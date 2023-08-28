@@ -1,0 +1,32 @@
+{
+  "name": "builderbaut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && node out/index.js",
+    "migrate": "pnpm drizzle-kit generate:pg",
+    "dev:debug": "pnpm run dev --debug",
+    "lint": "tsc --noEmit",
+    "ci": "pnpm run lint && pnpm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "2.4.1",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "drizzle-orm": "^0.28.5",
+    "glob": "4.2.1",
+    "postgres": "^3.3.5",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/node": "^20.5.6",
+    "drizzle-kit": "^0.19.13",
+    "typescript": "^5.2.2"
+  }
+}
