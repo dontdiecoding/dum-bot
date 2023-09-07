@@ -1,0 +1,7 @@
+{
+    "js": "javascript",
+    "ts": "typescript",
+    "py": "python",
+    "c": "c",
+    "c++": "c++"
+}

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS", 
+    "target": "ESNext", 
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "strict": true,
+    "outDir": "out",
+    "emitDecoratorMetadata": false, 
+    "experimentalDecorators": true, 
+    "declaration": false,
+    "importHelpers": true, 
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "Node", 
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["src"]
+}
